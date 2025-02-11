@@ -1,0 +1,16 @@
+##Install the Google Cloud SDK and Python Google Cloud Storage Client:
+
+pip install google-cloud-storage
+
+##Authenticate your Google Cloud account
+
+gcloud auth login
+gcloud auth application-default login
+
+##Set Up Your Google Cloud Storage Bucket:
+
+gcloud storage buckets create gs://my-text-storage
+
+##Run Your Python Script:
+
+python text_storage.py
